@@ -1,76 +1,31 @@
-# Neovim Configuration
+# Kinder.Vim
 
-This repository contains my personal Neovim configuration. It is designed to enhance productivity and provide a smooth coding experience.
-
-## Features
-
-- **Modern and fast:** Uses Lua for configuration
-- **Lazy loading:** Improves startup time
-- **Extensible:** Easy to add new plugins and customize
+This is my personal Neovim configuration, designed to be a powerful and productive code editor. Originally created for my [Arch Linux setup](https://github.com/AndreaKinder/ArchKinder.Dots), it is now my primary configuration for software development.
 
 ## Prerequisites
 
-- Neovim (version X.X or higher)
-- Git
-- Iosevka Nerd Font (for icons)
+- **Neovim:** Version 0.9 or higher.
+- **Git:** For plugin management.
+- **Nerd Font:** [Iosevka Nerd Font](https://www.nerdfonts.com/font-downloads) is recommended for proper icon display.
+- **Plugin Dependencies:** Ensure you have the necessary requirements for the `mason.nvim` plugins installed.
 
 ## Installation
 
-```bash
-# Install Neovim and Git
-sudo pacman -S neovim git
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/AndreaKinder/Kinder.Vim.git ~/.config/nvim
+    ```
 
-# Clone the Neovim configuration
-git clone https://github.com/yourusername/nvim-config.git ~/.config/nvim
+2.  **Start Neovim:**
+    ```bash
+    nvim
+    ```
+    `lazy.nvim` will be installed automatically and will manage the plugins on the first startup.
 
-# Install lazy.nvim (plugin manager)
-git clone --filter=blob:none https://github.com/folke/lazy.nvim.git --branch=stable ~/.local/share/nvim/lazy/lazy.nvim
+## Documentation
 
-# Start Neovim
-nvim
-```
-
-Neovim will automatically install the plugin manager and plugins on first run.
-
-## Main Plugins
-
-- Plugin manager: lazy.nvim
-- File explorer: nvim-tree.lua
-- Fuzzy finder: telescope.nvim
-- Code editor: vim-visual-multi
-- Obsidian integration: obsidian.nvim
-- Markdown support: markdown-preview.nvim
-
-## Configuration Structure
-
-- init.lua: Main configuration file
-- lua/config/
-    - autocmds.lua: Autocommands
-    - keymaps.lua: Custom keybindings
-    - lazy.lua: Plugin manager configuration
-    - options.lua: Neovim options
-- lua/plugins/: Individual plugin configuration files
-
-## Customization
-
-To add or modify plugins, edit the `lua/plugins.lua` file. For other customizations, check the relevant files in the `lua/` directory.
-
-## Performance
-
-This configuration is optimized for performance. You can check the startup time with:
-
-```bash
-nvim --startuptime startup.log
-```
-
-## Troubleshooting
-
-If you encounter any issues, please check the following:
-
-- Ensure all prerequisites are installed
-- Run `:checkhealth` in Neovim for diagnostics
-- Review error messages and logs
+For more detailed documentation on the project structure, plugins, and configurations, please see the [documentation here](./docs/en/index.md).
 
 ## Contributions
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome. If you have any suggestions or improvements, feel free to open a *Pull Request*.

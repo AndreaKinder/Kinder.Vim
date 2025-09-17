@@ -1,0 +1,27 @@
+# Plugins
+
+Esta sección contiene la documentación de los plugins utilizados en Kinder.Vim.
+
+- [colorscheme.md](./plugins/colorscheme.md)
+- [copilot-chat.md](./plugins/copilot-chat.md)
+- [copilot.md](./plugins/copilot.md)
+- [editor.md](./plugins/editor.md)
+- [extra.md](./plugins/extra.md)
+- [fzflua.md](./plugins/fzflua.md)
+- [gemini.md](./plugins/gemini.md)
+- [markdown.md](./plugins/markdown.md)
+- [mason.md](./plugins/mason.md)
+- [multi-line.md](./plugins/multi-line.md)
+- [neogen.md](./plugins/neogen.md)
+- [nvim-dap.md](./plugins/nvim-dap.md)
+- [oil.md](./plugins/oil.md)
+- [opencode.md](./plugins/opencode.md)
+- [overrides.md](./plugins/overrides.md)
+- [prettier.md](./plugins/prettier.md)
+- [rip.md](./plugins/rip.md)
+- [smear.md](./plugins/smear.md)
+- [twilight.md](./plugins/twilight.md)
+- [ui.md](./plugins/ui.md)
+- [vim-be-good.md](./plugins/vim-be-good.md)
+- [vim-tmux-navigation.md](./plugins/vim-tmux-navigation.md)
+- [which-key.md](./plugins/which-key.md)
