@@ -1,3 +1,6 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
+-- Define los grupos de resaltado personalizados para el dashboard
+-- set the following line in your config/options.lua
+vim.g.lazyvim_blink_main = true
