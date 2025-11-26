@@ -2,6 +2,17 @@
 
 This is my personal Neovim configuration, designed to be a powerful and productive code editor. Originally created for my [Arch Linux setup](https://github.com/AndreaKinder/ArchKinder.Dots), it is now my primary configuration for software development.
 
+![KinderVim Screenshot](screenshots/KinderVim-ScreenShot.png)
+![KinderVim Code Screenshot](screenshots/KinderVim-Code-ScreenShot.png)
+
+## Features
+
+- **Fast and Lightweight:** Optimized for performance.
+- **Modern UI:** Clean and aesthetic interface with `tokyonight` theme.
+- **Full LSP Support:** Autocompletion, diagnostics, and formatting.
+- **AI Integration:** GitHub Copilot and Gemini support.
+- **Easy Customization:** Modular structure powered by `lazy.nvim`.
+
 ## Prerequisites
 
 - **Neovim:** Version 0.9 or higher.
@@ -24,7 +35,7 @@ This is my personal Neovim configuration, designed to be a powerful and producti
 
 ## Documentation
 
-For more detailed documentation on the project structure, plugins, and configurations, please see the [documentation here](./docs/en/index.md).
+For more detailed documentation on the project structure, plugins, and configurations, please see the [full documentation here](./docs/en/index.md).
 
 ## Contributions
 

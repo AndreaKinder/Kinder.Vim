@@ -1,6 +1,17 @@
 # Kinder.Vim
 
-Esta es mi configuración personal de Neovim, diseñada para ser un editor de código potente y productivo. Originalmente creado para mi [configuración de Arch Linux](https://github.com/AndreaKinder/ArchKinder.Dots), ahora es mi configuración principal para el desarrollo de software.
+Esta es mi configuración personal de Neovim, diseñada para ser un editor de código potente y productivo. Originalmente creado para mi [configuración de Arch Linux](https://github.com/AndreaKinder/ArchKinder.Dots) (que ya no se mantiene), ahora es mi configuración principal para el desarrollo de software.
+
+![KinderVim Screenshot](screenshots/KinderVim-ScreenShot.png)
+![KinderVim Code Screenshot](screenshots/KinderVim-Code-ScreenShot.png)
+
+## Características
+
+- **Rápido y Ligero:** Optimizado para el rendimiento.
+- **Interfaz Moderna:** Interfaz limpia y estética con el tema `tokyonight`.
+- **Soporte Completo de LSP:** Autocompletado, diagnósticos y formateo.
+- **Integración con IA:** Soporte para GitHub Copilot y Gemini.
+- **Fácil Personalización:** Estructura modular impulsada por `lazy.nvim`.
 
 ## Requisitos previos
 
@@ -13,7 +24,7 @@ Esta es mi configuración personal de Neovim, diseñada para ser un editor de c�
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://github.com/AndreaKinder/Kinder.Vim.git ~/.config/nvim
+    git clone https://github.com/AndreaKinder/Kinder.Vim.git ~/.config/
     ```
 
 2.  **Inicia Neovim:**
@@ -24,7 +35,7 @@ Esta es mi configuración personal de Neovim, diseñada para ser un editor de c�
 
 ## Documentación
 
-Para una documentación más detallada sobre la estructura del proyecto, plugins y configuraciones, por favor consulta la [documentación aquí](./docs/es/index.md).
+Para una documentación más detallada sobre la estructura del proyecto, plugins y configuraciones, por favor consulta la [documentación completa aquí](./docs/es/index.md).
 
 ## Contribuciones
 
