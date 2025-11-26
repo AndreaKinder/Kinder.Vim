@@ -72,7 +72,7 @@ return {
   },
   
   config = function()
-    local home = vim.fn.expand("~/Notas")
+    local home = vim.fn.expand("~/Notes")
     
     require("telekasten").setup({
       -- ═══════════════════════════════════════════════════════════
@@ -378,7 +378,7 @@ Abriendo carpeta Inbox...
     vim.notify([[
 ✅ Telekasten configurado correctamente
 
-📂 Directorio base: ~/Notas
+📂 Directorio base: ~/Notes
 
 🚀 Comandos disponibles:
   :TKProject    - Crear proyecto
